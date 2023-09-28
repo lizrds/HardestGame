@@ -1,0 +1,556 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1694963816902253, "dur": 1852457, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963816902488, "dur": 1923, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963816904413, "dur": 31982, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963816936397, "dur": 688865, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963817625264, "dur": 1117839, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963818743104, "dur": 11605, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963818755666, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1694963817464301, "dur": 129577, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817465346, "dur": 39577, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817579905, "dur": 3994, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817583904, "dur": 9954, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817584789, "dur": 8242, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817597517, "dur": 1000, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694963817596910, "dur": 1627, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963818755925, "dur": 223, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694963817662505, "dur":1269, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963817663780, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694963817663824, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694963817663838, "dur":342, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694963817664206, "dur":395, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963817664601, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818719617, "dur":112, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818719730, "dur":104, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818719835, "dur":274, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720109, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720139, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720141, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720183, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720184, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720247, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720256, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720272, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720275, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720300, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720304, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720322, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720328, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720339, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720342, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720351, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720353, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720364, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720367, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720375, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720378, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720390, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720393, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720402, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720405, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720416, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720419, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720428, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720430, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720443, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720474, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818720515, "dur":1976, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694963817664383, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817664640, "dur":3847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817668488, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1694963817668655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817670402, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1694963817673052, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1694963817673133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817673138, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1694963817674306, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1694963817674439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817674448, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1694963817676074, "dur":31871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817707967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817708026, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817711517, "dur":16296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817727815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817727821, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817730415, "dur":55325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817785745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817785756, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817787331, "dur":50359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817837694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817837702, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817842474, "dur":47555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817890034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817890043, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817891986, "dur":81980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817973972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963817973982, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963817975423, "dur":56111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963818031538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963818031547, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963818033425, "dur":322384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963818355815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694963818355826, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694963818357573, "dur":362039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817664864, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817664865, "dur":3675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817668540, "dur":11715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694963817680257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817680267, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694963817682129, "dur":20659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817702793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817702802, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817704121, "dur":23619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817727743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817727749, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817729779, "dur":95114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817824898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817825107, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817830763, "dur":55607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817886376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817886387, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817887581, "dur":29999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817917584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963817917595, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963817920822, "dur":318347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963818239176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963818239186, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963818241658, "dur":347451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963818589117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694963818589131, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694963818590588, "dur":129045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817664575, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817664821, "dur":3655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817668477, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1694963817668786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817688451, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1694963817692376, "dur":19075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817711456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817711465, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817712658, "dur":82842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817795504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817795512, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817796979, "dur":41767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817838750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817838761, "dur":8079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817846881, "dur":19019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817865904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817865912, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817870263, "dur":44373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817914641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817914650, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817916740, "dur":72100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817988844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817988853, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817990850, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817991929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963817991938, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963817993774, "dur":31992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818025773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963818025783, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818028096, "dur":100162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818128264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963818128274, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818129598, "dur":311361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818440963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694963818440970, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694963818442942, "dur":276701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817664533, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817664749, "dur":3712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817668477, "dur":12116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694963817680597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817680619, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694963817682205, "dur":44192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963817726400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817726407, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963817727508, "dur":212805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963817940318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963817940328, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963817946604, "dur":84463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818031076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963818031094, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818033412, "dur":262470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818295888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963818295899, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818297397, "dur":39061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818336470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694963818336493, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694963818339229, "dur":380384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817664998, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817664998, "dur":3504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817668503, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694963817668667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817676057, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694963817677323, "dur":4981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1694963817682307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817682312, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1694963817683879, "dur":16512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817700394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817700438, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817701239, "dur":23599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817724841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817724848, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817727933, "dur":34750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817762688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817762697, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817763801, "dur":33908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817797774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817797794, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817799703, "dur":56627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817856335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817856345, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817859336, "dur":30256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817889601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817889617, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817891476, "dur":27712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817919192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963817919200, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963817921424, "dur":143506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963818064933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963818064940, "dur":43499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963818108481, "dur":379910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963818488395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694963818488402, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694963818490124, "dur":229522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817664455, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817664698, "dur":3760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817668477, "dur":37612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694963817706094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817706452, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694963817707267, "dur":112707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963817819978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817819986, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963817821015, "dur":51562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963817872581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963817872591, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963817874293, "dur":196100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963818070399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963818070410, "dur":4485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963818074934, "dur":312916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963818387854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694963818387862, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694963818389753, "dur":329861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817664631, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817664631, "dur":3825, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817668477, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1694963817668484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817669624, "dur":553, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1694963817670182, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1694963817670229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817670632, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1694963817672553, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694963817672669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817673031, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694963817674819, "dur":2553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817677374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817677639, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817678940, "dur":38470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2.exe" }}
+,{ "pid":12345, "tid":7, "ts":1694963817717413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817717420, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2.exe" }}
+,{ "pid":12345, "tid":7, "ts":1694963817718752, "dur":35569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817754329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817754346, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817755570, "dur":62115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817817695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817817712, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817819748, "dur":73118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817892871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817892879, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817894292, "dur":24076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817918372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963817918381, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963817921009, "dur":143323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818064339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963818064350, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818066720, "dur":150198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818216924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963818216934, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818218158, "dur":144784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818362954, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694963818362977, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694963818364645, "dur":354991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817664740, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817664741, "dur":3734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817668477, "dur":11354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1694963817679834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817679915, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1694963817681233, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1694963817681382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817681756, "dur":10223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1694963817692023, "dur":36642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817728668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817728673, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817731787, "dur":29097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817760890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817760900, "dur":10852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817771791, "dur":32234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817804029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817804038, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817804962, "dur":28050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817833018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817833028, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817837022, "dur":31692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817868720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817868731, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817869889, "dur":45410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817915302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817915312, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817916633, "dur":33813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817950453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963817950465, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963817952212, "dur":47868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818000087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963818000098, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818001684, "dur":188714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818190404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963818190415, "dur":5032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818195499, "dur":175500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818371002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694963818371085, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694963818372967, "dur":346665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963817665113, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963817665114, "dur":3348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963817668477, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1694963817668661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963817675412, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1694963817676656, "dur":219251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963817895911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963817895919, "dur":19175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963817915142, "dur":244358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963818159511, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963818159531, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963818161014, "dur":214144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963818375164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694963818375176, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694963818377152, "dur":342463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817665145, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817665145, "dur":3333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817668479, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1694963817668857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817692338, "dur":7527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1694963817699902, "dur":19574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817719480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817719489, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817721406, "dur":68844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817790256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817790266, "dur":7065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817797372, "dur":73343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817870720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817870730, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817872694, "dur":39893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817912593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817912605, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817914088, "dur":69096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817983192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817983206, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817984874, "dur":1754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817986635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817986647, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817988372, "dur":1527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817989903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963817989913, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963817991484, "dur":76312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818067820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963818067829, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818072682, "dur":89239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818161925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963818161935, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818163272, "dur":207428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818370706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694963818370717, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694963818372305, "dur":347312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817665198, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817665198, "dur":3340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817668539, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1694963817668829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817689047, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1694963817692866, "dur":144132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817837003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817837013, "dur":9153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817846254, "dur":34661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817880924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817880941, "dur":5551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817886541, "dur":56816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817943384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963817943403, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963817946620, "dur":71066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963818017692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963818017704, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963818019480, "dur":400716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963818420200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694963818420207, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694963818422552, "dur":297092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817665248, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817665249, "dur":3236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817668485, "dur":12200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1694963817680687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817680699, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1694963817682748, "dur":41683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963817724437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817724445, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963817726328, "dur":210707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963817937042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963817937055, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963817939339, "dur":419514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963818358857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694963818358865, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694963818360481, "dur":359130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817665426, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817665427, "dur":3052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817668479, "dur":11934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1694963817680416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817680491, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1694963817682109, "dur":16804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817698918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817699275, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817700185, "dur":26707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817726895, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817726967, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817729404, "dur":36818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817766294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817766303, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817767825, "dur":25195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817793026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817793035, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817794295, "dur":27894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817822193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817822202, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817823361, "dur":41534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817864901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817864969, "dur":3992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817869014, "dur":44055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817913073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817913081, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817915305, "dur":40271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817955863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963817955875, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963817957351, "dur":107389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963818064744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818064752, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963818067997, "dur":229946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963818297947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818297956, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694963818299411, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818299566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818299928, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818301086, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1694963818301128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818301171, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1694963818302366, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1694963818302411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818302418, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1694963818303435, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1694963818303476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818303482, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1694963818304473, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818304608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818304614, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818305793, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818306773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818306784, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1694963818308123, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1694963818308161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818308167, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1694963818309190, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1694963818309225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818309231, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1694963818310126, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1694963818310162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818310167, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1694963818311087, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1694963818311122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818311128, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1694963818312557, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1694963818312699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694963818312707, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1694963818315090, "dur":404550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817665489, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817665489, "dur":2995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817668484, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1694963817668671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817681591, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1694963817683675, "dur":32032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817715712, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817715722, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817716795, "dur":15511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817732309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817732317, "dur":10828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817743182, "dur":96583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817839769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817839777, "dur":5557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817845378, "dur":142044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817987427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963817987435, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963817990156, "dur":60900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818051066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963818051081, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818052820, "dur":133740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818186566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963818186576, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818187948, "dur":233662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818421614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694963818421621, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694963818422692, "dur":296957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817665577, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817665577, "dur":2953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817668530, "dur":11339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1694963817679880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817679902, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1694963817681609, "dur":69791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817751410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817751428, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817752639, "dur":49400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817802048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817802065, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817803363, "dur":56525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817859894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817859943, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817861447, "dur":115732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817977184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963817977194, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963817979385, "dur":85933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818065322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963818065330, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818067779, "dur":83088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818150873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963818150883, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818153526, "dur":64936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818218465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963818218474, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818219589, "dur":497621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818717213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694963818717220, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694963818719575, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1694963818719577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817665312, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817665312, "dur":3147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817668477, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1694963817668835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817692037, "dur":7809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1694963817699888, "dur":28528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817728419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817728425, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817730005, "dur":114964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817844975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817844985, "dur":11356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817856457, "dur":34160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817890645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817890653, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817892235, "dur":38893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817931135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963817931147, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963817932625, "dur":103729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963818036360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963818036372, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963818037628, "dur":320781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963818358414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694963818358423, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Senkuviene/Documents/ManoProjektai/Sunkiausiaszaidimas2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694963818360154, "dur":359464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694963818723836, "dur":1543, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1694963818756212, "dur": 543, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694963818755653, "dur": 1117, "ph": "X", "name": "Write chrome-trace events", "args": {} },
